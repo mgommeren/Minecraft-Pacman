@@ -31,7 +31,7 @@ def DeleteSphere(Pos):
 
 while True:
     playerPos = mc.player.getPos()
-    if OldPos + move != playerPos:
+    if OldPos.x / playerPos.x != 1 or OldPos.y / playerPos.y != 1 or OldPos.z / playerPos.z != 1:
         DeleteSphere(OldPos)
         BuildSphere(playerPos)
         OldPos = playerPos
