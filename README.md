@@ -5,7 +5,8 @@ Current stage:
 Yellow sphere follows Steve
 
 Issues:
-Ongoing issue that refreshes the sphere continuoulsy. Most likely due to getPos() changing the float numbers. 
+## Update##
+Sphere refresh issue sorted. Comparing the individual values sorted out issue. Considered using Vec3 math, but the mcpi didn't coorporate with that. 
 
 Future:
 Changing Sphere to PacMan
